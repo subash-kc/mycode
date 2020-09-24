@@ -53,7 +53,7 @@ elif response == 4:
     divide(x, y)
 
 else:
-    print("Invalid Operator")
+    print("Invalid Syntax")
 
 
 
