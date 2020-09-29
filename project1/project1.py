@@ -1,6 +1,12 @@
 #!/usr/bin/python3
 
-"""Author: Subash KC"""
+
+# Creating a Python Word Based Game
+
+
+print("""Author: Subash KC
+Date: 2020-09-27""")
+
 
 # Replace RPG starter project with this code when new instructions are live
 
@@ -35,17 +41,17 @@ rooms = {
             'Hall' : {
                   'south' : 'Kitchen',
                   'east'  : 'Dining Room',
-                  'item'  : ['key']
+                  'item'  : 'key'
                 },
 
             'Kitchen' : {
                   'north' : 'Hall',
-                  'item'  : ['monster'],
+                                    'item'  : 'monster',
                 },
             'Dining Room' : {
                   'west' : 'Hall',
                   'south': 'Garden',
-                  'item' : ['potion'],
+                  'item' : 'potion',
                   'north' : 'Pantry',
                },
             'Garden' : {
@@ -53,7 +59,7 @@ rooms = {
                },
             'Pantry' : {
                   'south' : 'Dining Room',
-                  'item' : ['cookie'],
+                  'item' : 'cookie',
             }
          }
 

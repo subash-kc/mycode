@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+import os
+
+import pytest
+
 
 
 
@@ -26,6 +30,14 @@ def divide(x, y):
     print(x/y)
 
     return
+
+#PATH
+
+path = 'home/student/mycode/calculator'
+
+isFile = os.path.isfile(path)
+
+print(isFile)
 
 print("1.Addition")
 

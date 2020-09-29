@@ -28,5 +28,5 @@ for i in netifaces.interfaces():
             print(netifaces.ifaddresses(i)[netifaces.AF_INET][0]['addr']) # prints the ip address
         
         except: #This is a new line
-
+        
             print('Could not collect adapter information') # Print an error message
